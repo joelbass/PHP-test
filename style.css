@@ -58,6 +58,8 @@ header {
   background: #ccc;
   padding: 10px;
   margin-bottom: 20px;
+
+
 }
 
 /* Cancel the header margin on home page. */
@@ -105,7 +107,7 @@ nav a:last-of-type {
 /* Hero */
 .hero {
   background: #ccc;
-  background-image: url('https://unsplash.imgix.net/uploads/1411589183965bdf6e141/5f468e98?fit=crop&fm=jpg&h=700&q=75&w=1050');
+  background-image: url('img/sky.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -117,6 +119,10 @@ nav a:last-of-type {
   color: white;
   text-shadow: 0 0 20px #444;
   text-align: center;
+}
+
+.hero h1 a {
+  color:#ffffaa
 }
 
 /* Footer */

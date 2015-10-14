@@ -6,7 +6,15 @@ $pageTitle = 'Home';
 <!-- Our site's hero area -->
 <div class="hero">
   <div class="row clearfix">
+    <!-- If the user name is not set, display a login link -->
+    <?php if(empty($userName)) : ?>
+      <h1>Who are you? Login <a href="login.php">here</a></h1>
+
+    <!-- If there is a user, display their name and a nice message -->
+    <?php else : ?>
       <h1>Hello <?php echo $userName; ?>, nice to see you again.</h1>
+    <?php endif; ?>
+
   </div>
 </div>
 

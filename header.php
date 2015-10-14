@@ -1,6 +1,6 @@
 <?php
 $pageID = strtolower($pageTitle);
-$userName = 'Milton';
+$userName = '';
  ?>
 <!DOCTYPE html>
 <html>
