@@ -31,7 +31,13 @@ $pageTitle = 'Home';
         <p>
         Had the doctor misplaced anything on that dismal shore? Could I render assistance? Dr Goose shook his head, knotted loose his 'kerchief & displayed its contents with clear pride. 'Teeth, sir, are the enamelled grails of the quest in hand. In days gone by this Arcadian strand was a cannibals' banqueting hall, yes, where the strong engorged themselves on the weak. The teeth, they spat out, as you or I would expel cherry stones. But these base molars, sir, shall be transmuted to gold & how? An artisan of Piccadilly who fashions denture-sets for the nobility pays handsomely for human gnashers. Do you know the price a quarter pound will earn, sir?'</p>
         <p>I confessed I did not.</p>
+
+        <div class="button">
+    <a href="https://www.facebook.com/crunchygods">Friend us on <span>Facebook!</span></a>
+  </div>
       </div>
+
+
 </div>
 
 <?php include 'footer.php'; ?>

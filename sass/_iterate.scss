@@ -1,0 +1,12 @@
+@for $i from 1 through 3 {
+@if $i <= 10{
+.item-#{$i} {
+margin-left: 10px * $i;
+}
+}
+@if $i >10 {
+.item-#{$i}{
+margin-left: 4px * $i;
+}
+}
+}
